@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{416F91DD-AF5F-4593-88D2-F587B56F3255}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ClientForm</RootNamespace>
+    <AssemblyName>ClientForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communication.cs" />
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetailsFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetailsFlight.Designer.cs">
+      <DependentUpon>FrmDetailsFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetailsReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetailsReservation.Designer.cs">
+      <DependentUpon>FrmDetailsReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistration.Designer.cs">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuiControllers\AdminGuiController.cs" />
+    <Compile Include="GuiControllers\ChangeFlightGuiController.cs" />
+    <Compile Include="GuiControllers\ChangeReservationGuiController.cs" />
+    <Compile Include="GuiControllers\ChangeUserGuiController.cs" />
+    <Compile Include="GuiControllers\CreateFlightGuiController.cs" />
+    <Compile Include="GuiControllers\DetailsFlightGuiController.cs" />
+    <Compile Include="GuiControllers\DetailsReservationGuiController.cs" />
+    <Compile Include="GuiControllers\EditUserGuiController.cs" />
+    <Compile Include="GuiControllers\InsertUserGuiController.cs" />
+    <Compile Include="GuiControllers\DeleteFlightGuiController.cs" />
+    <Compile Include="GuiControllers\LoginGuiController.cs" />
+    <Compile Include="GuiControllers\RegistrationGuiController.cs" />
+    <Compile Include="GuiControllers\ReserveFlightGuiController.cs" />
+    <Compile Include="GuiControllers\SearchFlightGuiController.cs" />
+    <Compile Include="GuiControllers\UserGuiController.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\UCChangeFlight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCChangeFlight.Designer.cs">
+      <DependentUpon>UCChangeFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCChangeReservation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCChangeReservation.Designer.cs">
+      <DependentUpon>UCChangeReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCChangeUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCChangeUser.Designer.cs">
+      <DependentUpon>UCChangeUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCCreateFlight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCCreateFlight.Designer.cs">
+      <DependentUpon>UCCreateFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCDeleteFlight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCDeleteFlight.Designer.cs">
+      <DependentUpon>UCDeleteFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCInsertUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCInsertUser.Designer.cs">
+      <DependentUpon>UCInsertUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCReserveFlight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCReserveFlight.Designer.cs">
+      <DependentUpon>UCReserveFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCSearchFlight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCSearchFlight.Designer.cs">
+      <DependentUpon>UCSearchFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCEditUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCEditUser.Designer.cs">
+      <DependentUpon>UCEditUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetailsFlight.resx">
+      <DependentUpon>FrmDetailsFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetailsReservation.resx">
+      <DependentUpon>FrmDetailsReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistration.resx">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\UCChangeFlight.resx">
+      <DependentUpon>UCChangeFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCChangeReservation.resx">
+      <DependentUpon>UCChangeReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCChangeUser.resx">
+      <DependentUpon>UCChangeUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCCreateFlight.resx">
+      <DependentUpon>UCCreateFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCDeleteFlight.resx">
+      <DependentUpon>UCDeleteFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCInsertUser.resx">
+      <DependentUpon>UCInsertUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCReserveFlight.resx">
+      <DependentUpon>UCReserveFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCSearchFlight.resx">
+      <DependentUpon>UCSearchFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCEditUser.resx">
+      <DependentUpon>UCEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{2655AD71-D36F-489D-A068-297A30A34D90}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

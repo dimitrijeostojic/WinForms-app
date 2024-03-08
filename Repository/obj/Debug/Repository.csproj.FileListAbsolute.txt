@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\Repository.dll
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\Repository.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\DBBroker.dll
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\Domain.dll
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\DBBroker.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\Domain.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Projekat softveri\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Projekat softveri\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Admin\Desktop\Projekat softveri\Repository\obj\Debug\Repository.dll
+C:\Users\Admin\Desktop\Projekat softveri\Repository\obj\Debug\Repository.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Repository\bin\Debug\Guna.UI2.dll

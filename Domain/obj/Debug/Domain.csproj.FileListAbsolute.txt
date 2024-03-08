@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Projekat softveri\Domain\bin\Debug\Domain.dll
+C:\Users\Admin\Desktop\Projekat softveri\Domain\bin\Debug\Domain.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Projekat softveri\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Projekat softveri\Domain\obj\Debug\Domain.dll
+C:\Users\Admin\Desktop\Projekat softveri\Domain\obj\Debug\Domain.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Domain\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Desktop\Projekat softveri\Domain\obj\Debug\Domain.csproj.CopyComplete

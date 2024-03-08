@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\Projekat softveri\Common\bin\Debug\Common.dll
+C:\Users\Admin\Desktop\Projekat softveri\Common\bin\Debug\Common.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Projekat softveri\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Projekat softveri\Common\obj\Debug\Common.dll
+C:\Users\Admin\Desktop\Projekat softveri\Common\obj\Debug\Common.pdb
+C:\Users\Admin\Desktop\Projekat softveri\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\Admin\Desktop\Projekat softveri\Common\bin\Debug\Guna.UI2.dll
+C:\Users\dimit\Desktop\Projekat softveri\Common\bin\Debug\Common.dll
+C:\Users\dimit\Desktop\Projekat softveri\Common\bin\Debug\Common.pdb
+C:\Users\dimit\Desktop\Projekat softveri\Common\bin\Debug\Guna.UI2.dll
+C:\Users\dimit\Desktop\Projekat softveri\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\dimit\Desktop\Projekat softveri\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\dimit\Desktop\Projekat softveri\Common\obj\Debug\Common.csproj.Up2Date
+C:\Users\dimit\Desktop\Projekat softveri\Common\obj\Debug\Common.dll
+C:\Users\dimit\Desktop\Projekat softveri\Common\obj\Debug\Common.pdb
